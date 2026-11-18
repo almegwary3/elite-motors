@@ -14,7 +14,7 @@ CORS(app)
 # =====================================
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_FILE = BASE_DIR / "cars.json.gz"
+DATA_FILE = Path(__file__).resolve().parent / "cars.json.gz"
 ENV_FILE = BASE_DIR / ".env"
 
 
